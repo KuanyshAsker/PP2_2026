@@ -6,7 +6,6 @@ if x > 10:
   else:
     print("but not above 20.")
 
-
 age = 25
 has_license = True
 if age >= 18:
@@ -16,7 +15,6 @@ if age >= 18:
     print("You need a license")
 else:
   print("You are too young to drive")
-
 
 score = 85
 attendance = 90
@@ -32,13 +30,11 @@ if score >= 60:
 else:
   print("Fail")
 
-
 temperature = 25
 is_sunny = True
 if temperature > 20:
   if is_sunny:
     print("Perfect beach weather!")
-
 
 temperature = 25
 is_sunny = True
@@ -58,7 +54,6 @@ if username:
     print("Password required")
 else:
   print("Username required")
-
 
 username = "Emil"
 password = "python123"

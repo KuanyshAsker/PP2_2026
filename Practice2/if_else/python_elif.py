@@ -23,7 +23,6 @@ elif age >= 65:
   print("You are a senior")
 
 day = 3
-
 if day == 1:
   print("Monday")
 elif day == 2:

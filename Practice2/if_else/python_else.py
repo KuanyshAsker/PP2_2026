@@ -31,7 +31,6 @@ else:
   print("It's cold outside!")
 
 username = "Emil"
-
 if len(username) > 0:
   print(f"Welcome, {username}!")
 else:

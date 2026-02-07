@@ -10,7 +10,7 @@ if number > 0:
 a = 33
 b = 200
 if b > a:
-print("b is greater than a") # you will get an error
+print("b is greater than a") # you will get an error cuz the indentation issue???
 
 age = 20
 if age >= 18:

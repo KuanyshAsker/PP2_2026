@@ -4,7 +4,6 @@ print(10 < 9)
 
 a = 200
 b = 33
-
 if b > a:
   print("b is greater than a")
 else:
@@ -15,7 +14,6 @@ print(bool(15))
 
 x = "Hello"
 y = 15
-
 print(bool(x))
 print(bool(y))
 
@@ -29,27 +27,24 @@ bool(0)
 bool("")
 bool(())
 bool([])
-bool({})
+bool({}) #all of them represents false 
 
 class myclass():
   def __len__(self):
     return 0
-
 myobj = myclass()
 print(bool(myobj))
 
 def myFunction() :
   return True
-
 print(myFunction())
 
 def myFunction() :
   return True
-
 if myFunction():
   print("YES!")
 else:
   print("NO!")
 
 x = 200
-print(isinstance(x, int))
+print(isinstance(x, int)) # this built-in function checks for var's certain data type
