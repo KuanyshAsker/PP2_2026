@@ -1,14 +1,8 @@
 def even_numbers(n):
-    i = 0
-    while i <= n:
-        yield i 
-        i += 2
+    for i in range(0, n + 1, 2):
+        yield i
 n = int(input())
-l = []
-for num in even_numbers(n):
-    l.append(num)
-    l.append(",")
-l.pop()
-for x in l:
-    print(x, end="")
-    
+temp = even_numbers(1000000)
+for _ in range(n // 2):
+    print(next(temp), end=",")
+print(next(temp))
