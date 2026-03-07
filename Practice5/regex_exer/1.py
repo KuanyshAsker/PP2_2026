@@ -1,4 +1,7 @@
 import re
-s = input()
-x = re.match("ab*", s)
-print("Match" if x else "No match")
+txt = input()
+x = re.match("ab*", txt)
+if x:
+    print("Match found")
+else: 
+    print("Not found")

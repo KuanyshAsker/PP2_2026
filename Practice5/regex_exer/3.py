@@ -1,4 +1,4 @@
-import re
-s = input()
-x = re.findall("\\b[a-z]+_[a-z]+\\b", s)
+import re 
+txt = input()
+x = re.findall("[a-z]+(?:_[a-z]+)+", txt)
 print(x)

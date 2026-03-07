@@ -1,4 +1,4 @@
-import re
-s = input()
-x = re.sub("[ ,.]", ":", s)
+import re 
+txt = input()
+x = re.sub("[ ,.]", ":", txt)
 print(x)

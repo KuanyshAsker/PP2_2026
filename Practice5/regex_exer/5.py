@@ -1,4 +1,4 @@
-import re
-s = input()
-x = re.search("^a.*b$", s)
-print("Match" if x else "No match")
+import re 
+txt = input()
+x = re.match("^a+b$", txt)
+print(x)

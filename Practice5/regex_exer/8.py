@@ -1,4 +1,4 @@
-import re
-s = input()
-x = re.findall("[A-Z][a-z]*", s)
+import re 
+txt = input()
+x = re.split("?=[A-Z]", txt)
 print(x)

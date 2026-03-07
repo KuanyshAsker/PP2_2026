@@ -1,4 +1,4 @@
-import re
-s = input()
-x = re.findall("\\b[A-Z][a-z]*\\b", s)
+import re 
+txt = input()
+x = re.findall("[A-Z][a-z]+", txt)
 print(x)
