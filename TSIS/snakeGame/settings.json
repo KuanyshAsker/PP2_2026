@@ -1,0 +1,18 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "dbname": "postgres",
+    "user": "postgres",
+    "password": "1234"
+  },
+  "preferences": {
+    "snake_color": [
+      0,
+      210,
+      0
+    ],
+    "grid_overlay": false,
+    "sound": true
+  }
+}

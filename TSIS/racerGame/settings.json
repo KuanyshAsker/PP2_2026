@@ -1,0 +1,18 @@
+{
+    "screen_width": 400,
+    "screen_height": 600,
+    "fps": 60,
+    "music_volume": 0.5,
+    "player_speed": 5,
+    "enemy_speed": 5,
+    "coin_speed": 5,
+    "track_object_speed": 5,
+    "base_traffic_delay": 1800,
+    "base_obstacle_delay": 2300,
+    "base_power_up_delay": 6500,
+    "power_up_timeout": 7000,
+    "race_distance": 5000,
+    "sound_enabled": true,
+    "car_color": "Blue",
+    "difficulty": "Normal"
+}

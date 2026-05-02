@@ -1,0 +1,290 @@
+[
+    {
+        "name": "Aruzhan Sadykova",
+        "email": "aruzhan.sadykova@example.com",
+        "birthday": "2002-03-14",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87011234567",
+                "type": "mobile"
+            },
+            {
+                "phone": "87271234567",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Dias Karimov",
+        "email": "dias.karimov@example.com",
+        "birthday": "2001-07-22",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87022345678",
+                "type": "mobile"
+            },
+            {
+                "phone": "87272345678",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Miras Akhmetov",
+        "email": "miras.akhmetov@example.com",
+        "birthday": "2000-11-05",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87033456789",
+                "type": "mobile"
+            },
+            {
+                "phone": "87273456789",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Dana Nurpeisova",
+        "email": "dana.nurpeisova@example.com",
+        "birthday": "2003-01-30",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87044567890",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Alikhan Tulegenov",
+        "email": "alikhan.tulegenov@example.com",
+        "birthday": "1999-09-18",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87055678901",
+                "type": "mobile"
+            },
+            {
+                "phone": "87275678901",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Madina Omarova",
+        "email": "madina.omarova@example.com",
+        "birthday": "2002-12-08",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87066789012",
+                "type": "mobile"
+            },
+            {
+                "phone": "87276678912",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Nursultan Bekov",
+        "email": "nursultan.bekov@example.com",
+        "birthday": "2001-04-25",
+        "group": "Other",
+        "phones": [
+            {
+                "phone": "87077890123",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Aigerim Zhanatkyzy",
+        "email": "aigerim.zhanatkyzy@example.com",
+        "birthday": "2000-06-11",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87088901234",
+                "type": "mobile"
+            },
+            {
+                "phone": "87278890123",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Yerbol Serikov",
+        "email": "yerbol.serikov@example.com",
+        "birthday": "1998-10-02",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87099012345",
+                "type": "mobile"
+            },
+            {
+                "phone": "87279901234",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Kamila Ibrayeva",
+        "email": "kamila.ibrayeva@example.com",
+        "birthday": "2003-05-17",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87010123456",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Rauan Kenzhebek",
+        "email": "rauan.kenzhebek@example.com",
+        "birthday": "1999-02-09",
+        "group": "Other",
+        "phones": [
+            {
+                "phone": "87021234567",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Amina Bolatova",
+        "email": "amina.bolatova@example.com",
+        "birthday": "2002-08-21",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87032345678",
+                "type": "mobile"
+            },
+            {
+                "phone": "87273234567",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Sanzhar Mukhtar",
+        "email": "sanzhar.mukhtar@example.com",
+        "birthday": "2001-03-03",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87043456789",
+                "type": "mobile"
+            },
+            {
+                "phone": "87274345678",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Aliya Kassymova",
+        "email": "aliya.kassymova@example.com",
+        "birthday": "2000-12-19",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87054567890",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Adil Zhaksylyk",
+        "email": "adil.zhaksylyk@example.com",
+        "birthday": "1998-07-07",
+        "group": "Other",
+        "phones": [
+            {
+                "phone": "87065678901",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Tomiris Yessenova",
+        "email": "tomiris.yessenova@example.com",
+        "birthday": "2003-09-29",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87076789012",
+                "type": "mobile"
+            },
+            {
+                "phone": "87277678901",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Bekzat Rakhimov",
+        "email": "bekzat.rakhimov@example.com",
+        "birthday": "2001-01-12",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87087890123",
+                "type": "mobile"
+            },
+            {
+                "phone": "87278789012",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Zhanel Muratova",
+        "email": "zhanel.muratova@example.com",
+        "birthday": "2002-06-06",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87098901234",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Arman Suleimenov",
+        "email": "arman.suleimenov@example.com",
+        "birthday": "1999-11-23",
+        "group": "Other",
+        "phones": [
+            {
+                "phone": "87019012345",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Saule Tursynova",
+        "email": "saule.tursynova@example.com",
+        "birthday": "2000-04-15",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87020123456",
+                "type": "mobile"
+            },
+            {
+                "phone": "87272012345",
+                "type": "home"
+            }
+        ]
+    }
+]
