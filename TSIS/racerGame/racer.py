@@ -13,7 +13,6 @@ from ui import (
     draw_nitro_power_up,
     draw_nitro_strip,
     draw_oil_spill,
-    draw_pothole,
     draw_repair_power_up,
     draw_road_block,
     draw_shield_power_up,
@@ -157,14 +156,6 @@ class SpeedBump(TrackObject):
         self.effect_name = "Speed bump"
         self.effect_speed = game.slowed_player_speed
         self.effect_duration = 1200
-
-
-class Pothole(TrackObject):
-    def __init__(self, game, lane_index, y_position):
-        super().__init__(game, game.pothole_image, lane_index, y_position)
-        self.effect_name = "Pothole"
-        self.effect_speed = game.slowed_player_speed
-        self.effect_duration = 1500
 
 
 class NitroStrip(TrackObject):
@@ -316,7 +307,6 @@ class RacerGame:
         self.barrier_image = load_image_or_surface(RESOURCE_PATH, "Barrier.png", (64, 36), draw_road_block)
         self.speed_bump_image = load_image_or_surface(RESOURCE_PATH, "SpeedBump.png", (70, 24), draw_speed_bump)
         self.nitro_image = load_image_or_surface(RESOURCE_PATH, "NitroStrip.png", (70, 26), draw_nitro_strip)
-        self.pothole_image = load_image_or_surface(RESOURCE_PATH, "Pothole.png", (62, 38), draw_pothole)
         self.power_up_images = {
             "Nitro": load_image_or_surface(RESOURCE_PATH, "NitroStrip.png", (38, 38), draw_nitro_power_up),
             "Shield": load_image_or_surface(RESOURCE_PATH, "Shield.png", (38, 38), draw_shield_power_up),
@@ -565,16 +555,14 @@ class RacerGame:
     def spawn_random_obstacle(self):
         # Random single obstacle, separate from bigger hazard waves.
         obstacle_class = random.choices(
-            [RoadBlock, OilSpill, Pothole],
-            weights=[40, 35, 25],
+            [RoadBlock, OilSpill],
+            weights=[55, 45],
             k=1,
         )[0]
         image = self.barrier_image
 
         if obstacle_class == OilSpill:
             image = self.oil_image
-        elif obstacle_class == Pothole:
-            image = self.pothole_image
 
         y_position = random.randint(-180, -90)
         lane_index = self.find_safe_lane(image, y_position, avoid_player_lane=True)
@@ -620,8 +608,8 @@ class RacerGame:
                 continue
 
             hazard_class = random.choices(
-                [RoadBlock, OilSpill, SpeedBump, Pothole],
-                weights=[40, 25, 18, 17],
+                [RoadBlock, OilSpill, SpeedBump],
+                weights=[45, 35, 20],
                 k=1,
             )[0]
             image = self.get_track_object_image(hazard_class)
@@ -643,8 +631,6 @@ class RacerGame:
             return self.speed_bump_image
         if object_class == NitroStrip:
             return self.nitro_image
-        if object_class == Pothole:
-            return self.pothole_image
         return self.barrier_image
 
     def spawn_road_event(self):
@@ -864,7 +850,7 @@ class RacerGame:
             power_up.kill()
 
     def handle_track_effect_collisions(self):
-        # Oil, potholes and speed bumps slow player for a short time.
+        # Oil and speed bumps slow player for a short time.
         touched_slow_zones = pygame.sprite.spritecollide(self.player, self.slow_zones, False)
 
         for zone in touched_slow_zones:
