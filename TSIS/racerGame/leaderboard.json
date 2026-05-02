@@ -16,12 +16,44 @@
         "checkpoints": 5
     },
     {
+        "date": "2026-05-02 11:39",
+        "name": "Jazira",
+        "score": 558,
+        "distance": 531,
+        "coins": 13,
+        "checkpoints": 4
+    },
+    {
         "date": "2026-05-02 05:29",
         "name": "dima",
         "score": 300,
         "distance": 408,
         "coins": 6,
         "checkpoints": 3
+    },
+    {
+        "date": "2026-05-02 11:38",
+        "name": "Ulan",
+        "score": 263,
+        "distance": 238,
+        "coins": 4,
+        "checkpoints": 2
+    },
+    {
+        "date": "2026-05-02 11:37",
+        "name": "Ulan",
+        "score": 198,
+        "distance": 189,
+        "coins": 8,
+        "checkpoints": 1
+    },
+    {
+        "date": "2026-05-02 11:38",
+        "name": "Ulan",
+        "score": 153,
+        "distance": 185,
+        "coins": 6,
+        "checkpoints": 1
     },
     {
         "date": "2026-05-02 05:08",
@@ -40,11 +72,5 @@
         "score": 4,
         "coins": 6,
         "checkpoints": 1
-    },
-    {
-        "date": "2026-05-02 05:07",
-        "score": 1,
-        "coins": 4,
-        "checkpoints": 0
     }
 ]

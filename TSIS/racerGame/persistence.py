@@ -8,7 +8,7 @@ SETTINGS_FILE = os.path.join(BASE_DIR, "settings.json")
 LEADERBOARD_FILE = os.path.join(BASE_DIR, "leaderboard.json")
 
 DEFAULT_SETTINGS = {
-    # Default values are used if settings.json is empty or broken.
+    #default values are used if settings.json is empty or broken
     "screen_width": 400,
     "screen_height": 600,
     "fps": 60,
@@ -29,7 +29,7 @@ DEFAULT_SETTINGS = {
 
 
 def read_json(path, default_value):
-    # Small safe reader so the game does not crash if json is empty.
+    # Small safe reader so the game does not crash if json is empty
     if not os.path.exists(path) or os.path.getsize(path) == 0:
         return default_value
 
@@ -41,13 +41,13 @@ def read_json(path, default_value):
 
 
 def write_json(path, data):
-    # Save with indent so the json file is readable for checking.
+    #save with indent so the json file is readable for checking
     with open(path, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
 
 
 def load_settings():
-    # Load saved settings, but keep any missing keys from DEFAULT_SETTINGS.
+    #load saved settings, but keep any missing keys from DEFAULT_SETTINGS
     settings = DEFAULT_SETTINGS.copy()
     saved_settings = read_json(SETTINGS_FILE, {})
 

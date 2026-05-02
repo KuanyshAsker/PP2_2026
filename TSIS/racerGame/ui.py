@@ -11,7 +11,6 @@ YELLOW = (255, 220, 40)
 ORANGE = (255, 130, 0)
 PURPLE = (130, 45, 180)
 CYAN = (0, 210, 255)
-DARK_GRAY = (45, 45, 45)
 LIGHT_GREEN = (80, 230, 120)
 INK = (18, 24, 38)
 PANEL = (24, 30, 46)
@@ -78,14 +77,7 @@ def draw_nitro_strip(surface):
         ],
     )
 
-
-def draw_pothole(surface):
-    surface.fill((0, 0, 0, 0))
-    pygame.draw.ellipse(surface, DARK_GRAY, surface.get_rect())
-    pygame.draw.ellipse(surface, BLACK, (8, 6, surface.get_width() - 16, surface.get_height() - 12))
-    pygame.draw.arc(surface, (95, 95, 95), (5, 4, surface.get_width() - 10, surface.get_height() - 8), 3.14, 6.2, 3)
-
-
+    
 def draw_nitro_power_up(surface):
     surface.fill((0, 0, 0, 0))
     pygame.draw.circle(surface, CYAN, surface.get_rect().center, surface.get_width() // 2)
